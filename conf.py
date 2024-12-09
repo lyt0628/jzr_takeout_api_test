@@ -10,4 +10,8 @@ else:
 
 
 def api(path):
-    return API_URL_PREFIX + path
+    return f"{API_URL_PREFIX}{path}"
+
+
+
+
